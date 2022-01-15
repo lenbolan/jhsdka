@@ -54,6 +54,9 @@ dependencies {
     // form
     implementation 'com.mobsandgeeks:android-saripaar:+'
 
+    // Toasty
+    implementation 'com.github.GrenderG:Toasty:1.1.3'
+
     // oaid
     implementation 'com.github.gzu-liyujiang:Android_CN_OAID:4.2.3'
 
