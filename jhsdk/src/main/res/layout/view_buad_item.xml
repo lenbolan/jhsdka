@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.renrui.libraries.widget.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_bg2"/>
+
+        <TextView
+            android:id="@+id/txtSymbol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@color/gray_b2b2"
+            android:textSize="36dp" />
+
+    </FrameLayout>
+
+</com.renrui.libraries.widget.SquareLayout>

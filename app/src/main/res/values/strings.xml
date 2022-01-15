@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">供应商管理云系统</string>
+    <string name="btnSearch">搜索</string>
+    <string name="btnAdd">新增</string>
+    <string name="txtSearch">供应商名称</string>
+    <string name="txtAboutUs">关于我们</string>
+    <string name="txtContactUs">联系我们</string>
+    <string name="ad_load_failed">视频加载失败，请稍后再试...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

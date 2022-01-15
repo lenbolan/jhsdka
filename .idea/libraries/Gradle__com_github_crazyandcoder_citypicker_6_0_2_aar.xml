@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.crazyandcoder:citypicker:6.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/94e9e250b6178dcd3e613232da5d543f/transformed/jetified-citypicker-6.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94e9e250b6178dcd3e613232da5d543f/transformed/jetified-citypicker-6.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94e9e250b6178dcd3e613232da5d543f/transformed/jetified-citypicker-6.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crazyandcoder/citypicker/6.0.2/ebce40e81595b8bde0f3b8168bf9b03f8d13de89/citypicker-6.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
