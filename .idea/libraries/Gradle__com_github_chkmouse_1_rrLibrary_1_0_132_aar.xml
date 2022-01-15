@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.chkmouse-1:rrLibrary:1.0.132@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cbe4f04f81db5f1897687564fac4d1ec/transformed/jetified-rrLibrary-1.0.132/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/jars/libs/utils-1.0.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cbe4f04f81db5f1897687564fac4d1ec/transformed/jetified-rrLibrary-1.0.132/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cbe4f04f81db5f1897687564fac4d1ec/transformed/jetified-rrLibrary-1.0.132/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cbe4f04f81db5f1897687564fac4d1ec/transformed/jetified-rrLibrary-1.0.132/jars/libs/utils-1.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cbe4f04f81db5f1897687564fac4d1ec/transformed/jetified-rrLibrary-1.0.132/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
