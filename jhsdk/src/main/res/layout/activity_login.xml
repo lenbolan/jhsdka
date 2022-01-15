@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_titlebar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="36dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="手机号" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="36dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="36dp"
+        android:background="@drawable/btn_bg_red"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="提      交" />
+
+    <Button
+        android:id="@+id/btnToRegist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="36dp"
+        android:background="@drawable/border_line_green"
+        android:textStyle="bold"
+        android:textColor="@color/green_65"
+        android:textSize="18dp"
+        android:text="注      册" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="190dp"
+        android:layout_height="310dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/round_bg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridView
+            android:id="@+id/gridViewQQ"
+            android:layout_width="170dp"
+            android:layout_height="290dp"
+            android:layout_gravity="center"
+            android:columnWidth="50dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/ad_qq_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="初始化中..."
+        android:textAlignment="center"
+        android:textColor="@color/gray_442e"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+
+    <FrameLayout
+        android:id="@+id/flCover"
+        android:layout_width="300dp"
+        android:layout_height="420dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/ad_qq_state"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout2">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.6"
+            android:clickable="true"
+            android:background="@drawable/round_bg_red" />
+
+        <TextView
+            android:id="@+id/tvCountDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="60"
+            android:textColor="#FFFFFF"
+            android:textSize="64sp"
+            tools:textStyle="bold" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="返回"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chkmouse-1:rrLibrary:1.0.132@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/jars/libs/utils-1.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/338f836c3469fb84d01b5b04353e7fe6/transformed/jetified-rrLibrary-1.0.132/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chkmouse-1/rrLibrary/1.0.132/fb8698e46e6be54e4357992ca0f2d58e9d8b1a94/rrLibrary-1.0.132-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
